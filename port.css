@@ -1,0 +1,150 @@
+/*Portfolio form css starts here*/
+
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.portfolio-form{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    
+}
+
+#textarea,#input-file,#submit-home,#submit-profile-pic{
+    /*margin-left:40px;
+    margin-right:20px;*/
+}
+#input-file{
+    width:95%;
+}
+
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+@media only screen and (min-width: 1040px){
+    .portfolio-form{
+        margin:5% 10% 5% 10%;
+    }
+}
+
+.tabcontent{
+    background-color: white;
+}
+
+body{
+    
+    background: #252527 url(file:///C:/Users/Harshal/Documents/wp-client-project/multistageform/images/logo2.png);
+    background-image: url(file:///C:/Users/Harshal/Documents/wp-client-project/multistageform/images/logo2.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: initial;
+    background:repeat-x initial;
+    background: repeat-y initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(37, 37, 39);
+    background-position: center;
+    color: #999;
+}
+
+#exp-title{
+    width:80%;
+}
+
+#previewPic{
+    width:292px;
+    height:386px;
+    margin-left: 40px;
+}
+
+
+
+#view-exp,#view-skill,#view-lang-skill,#view-lng-skill,#view-tech-skill,#view-edu,#view-achiev,#view-service{
+    float:right;
+    margin-top:-5px;
+}
+
+@media screen and (min-width: 992px) {
+        .modal-lg {
+          width: 950px; /* New width for large modal */
+        }
+        .modal-open .modal {
+   width:80%;
+    }
+
+    #uploadimage{
+        margin: 20px 20px 20px 20px;
+    }
+}
+
+.report-modal-body {
+    overflow-y:auto;
+    overflow-x:auto;
+    /*white-space:pre;*/
+}
+
+.report-pre {
+    width:100%;
+    overflow-x:auto;
+    /*word-wrap:normal;*/
+    margin:0px;
+}
+
+@media screen and (max-width: 400px) {
+        .modal-lg {
+          height:200px; /* New width for large modal */
+        }
+        .modal-open .modal {
+        width:100%;
+    }
+
+}
+
+#single-port{
+    display:none;
+}
+
+
+/*#port-home-form{
+    margin:20px 20px 20px 20px;
+}*/
+
+
+
+
+
+

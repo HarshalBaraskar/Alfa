@@ -1,0 +1,28 @@
+
+
+/*  
+========================
+Theme Settings Style
+========================
+*/
+
+#profile-picture-preview{
+    border:1px solid black;
+    padding:2px;
+    border-radius:5px;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.profile-picture-preview{
+   
+    border:1px solid black;
+    width:200px;
+    height:200px;
+}
+.profile-picture-preview p{
+   
+    text-align:center;
+}

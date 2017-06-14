@@ -1,0 +1,407 @@
+/*
+Theme Name: Alfa
+Theme URI: https://alfa.com
+Author: the WordPress team
+Author URI: https://alfa.com/
+Description: Developing premium w theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: specify strings by which users are going to search your theme
+Text Domain: alfa.com
+
+*/
+
+
+/* Navigation bar */
+
+
+
+.navbar-inverse {
+    background-color: white;
+    border-color: white;
+    border-radius: 0px;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #009900;
+    font-family: 'Roboto', sans-serif; 
+    font-size:19px;
+    font-weight:100;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: rgb(95, 207, 128);
+}
+
+.navbar-inverse .navbar-brand {
+    color: rgb(95, 207, 128);
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color: #009900;
+}
+
+.navbar-inverse {
+    margin-bottom: 5px;
+    -webkit-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.50);
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.50);
+}
+
+/* Brand name style */
+
+.navbar-brand{
+    font-family: Georgia; 
+    font-size:22px;
+    font-weight:bold;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    
+    min-width:180px;
+}
+
+
+
+/* Responsive nav button */
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: rgb(95, 207, 128);
+}
+.navbar-inverse .navbar-toggle {
+    border-color: rgb(95, 207, 128);
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #009900;
+}
+
+/* Bar below slider */
+.hbar{
+    margin-top: 2px;
+    width: 100%;
+    height: 32px;
+    background-color: rgb(95, 207, 128);
+    border-top: 1px solid rgb(95, 207, 128);
+    border-bottom: 1px solid rgb(95, 207, 128);
+
+}
+
+.hbar{
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    font-size:19px;
+    font-weight:100;
+}
+@media only screen and (max-width: 400px) {
+.hbar { 
+    height: 16px;
+    font-size:80%;
+    }
+}
+
+@media only screen and (min-width: 977px) {
+.hbar-icon{
+    margin-right:15%;
+}
+
+.hbar-date{
+    margin-left:15%;
+}
+}
+
+
+
+.hbar-icon{
+    float:right;
+}
+
+.hbar-icon img{
+    width:30px;
+    height:30px;
+}
+
+/* Body area */
+
+#bleft{
+    min-height:600px;
+    margin-top:5%;
+    
+}
+
+#bright{
+    border: 1px solid #ddd;
+    min-height:600px;
+    width:24%;
+    margin-top:67px;
+        
+}
+
+#post1,#post2{
+    border: 1px solid #ddd;
+    padding: 0;
+    height:80%;    
+    margin-top:1%;   
+}
+
+@media only screen and (min-width: 977px) {
+#post1,#post2{ 
+    margin-left:5%; 
+
+}
+
+}
+
+#post-img{
+    max-height:60%;   
+}
+
+#post-image{
+    width:100%;
+    height:100%;
+}
+
+#post-text{
+    min-height:40%;
+    margin-left:0px;
+   
+}
+
+#title{
+     float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 5px;
+    color: #009900;
+    padding: 10px;
+
+}
+
+
+#post-by{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color:#999;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-left: 10px solid rgb(95, 207, 128);
+    -webkit-transition: border 0.2s;
+    transition: border 0.2s;
+}
+
+#post-by:hover{
+    border-left:20px solid rgb(95, 207, 128);
+}
+
+#post-section3{
+    border: 1px solid #ddd;
+    padding: 0;
+    width: 31%;
+    margin: 1%;
+}
+
+@media only screen and (max-width: 977px) {
+
+#bright{
+    display:none;
+}
+
+#post1,#post2{ 
+   border:1px solid white;
+      
+}
+
+#post-by{
+    font-size:12px;
+}
+
+#title{
+    font-size:18px;
+}
+
+#post-section3{
+    border: 1px solid white;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+}
+
+
+#post3{
+    min-height:200px;
+    
+    margin-top:10px;
+}
+
+#post3-img{
+    max-height:60%; 
+    
+}
+
+#post3-text{
+    
+    min-height:400px;
+}
+
+#post3-text-in{      
+    width: 170%;
+    height: 75%;
+    margin-top: 20%;
+    margin-left: -30%;
+    background-color: white;
+     -webkit-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.50);
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.50);
+    border:5px solid rgb(95, 207, 128);
+}
+
+
+
+#post-text-row{
+ min-height:40%;
+ margin-left:0px;
+ padding:6%;
+}
+
+#hrule1{
+    border:0.2p;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+@media only screen and (max-width: 977px) {
+
+#post3-text-in{
+        
+    width: 100%;
+    min-height: 2%;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: white;
+     -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.50);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.50);
+    border:0px;
+}
+
+#post3-text{
+    
+    min-height:100px;
+}
+
+#post-text-row{
+ padding:0;
+}
+
+}
+
+
+#post3-image{
+    width:100%;
+    height:100%;
+}
+
+
+/* Sidebar */
+
+#sidebar-title{
+    width:100%;
+    height:40px;
+    background-color:rgb(95, 207, 128);
+    margin-bottom:15px;
+    margin-top:-20px;
+    width:111%;
+    margin-left:-15px;
+}
+
+#sidebar-title h2{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    font-weight:400;
+    color:white;
+    padding:10px;
+}
+
+#side-title{
+    float:left;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-weight:400;
+    margin-top:0;
+    color:#009900;
+}
+
+#side-post{
+    margin-bottom:15px;
+}
+
+#sidebar-hr{
+    width: 111%;
+    margin-left: -15px;
+
+}
+
+/* Footer area */
+
+.footer{
+    font-family: 'Roboto', sans-serif;
+    min-height:300px;
+    margin-top:20px;
+    border:1px solid #adebad;
+    background-color: #43a047;
+}
+
+#footer-col-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color:white;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    border-left: 10px solid white;
+    -webkit-transition: border 0.2s;
+    transition: border 0.2s;
+}
+
+#footer-col-heading:hover{
+    border-left:20px solid white;
+}
+
+#footer-social{
+    font-size: 18px;
+    font-weight: 100;
+    list-style-type:none;
+    color:white;
+}
+
+#footer-categories{
+    font-size: 18px;
+    font-weight: 100;
+    list-style-type:none;
+    color:white;
+}
+
+#about-us{
+    margin-top:0;
+    font-size: 18px;
+    text-align:justify;
+    font-weight: 100;
+    color:white;
+}
+
+.copyright{
+    padding-top:10px;
+    font-size: 14px;
+    text-align:center;
+    font-weight: 100;
+    color:white;
+    height:40px;
+    width:100%;
+    background-color:  #1b5e20;
+    margin-top:-1px;
+}
+
